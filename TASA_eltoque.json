@@ -1,0 +1,393 @@
+
+{
+  "place": "La Habana",
+  "website": "El Toque",
+  "dolar_increase": [],
+  "data": [
+    {
+      "data": {
+        "dolar_today": "475",
+        "day": "20",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "478",
+        "day": "21",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "483",
+        "day": "22",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "485",
+        "day": "23",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "490",
+        "day": "24",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "490",
+        "day": "25",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "490",
+        "day": "26",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "490",
+        "day": "27",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "490",
+        "day": "28",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "485",
+        "day": "29",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "480",
+        "day": "30",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "470",
+        "day": "31",
+        "month": "10"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "460",
+        "day": "1",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "460",
+        "day": "2",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "440",
+        "day": "3",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "430",
+        "day": "4",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "420",
+        "day": "5",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "410",
+        "day": "6",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "410",
+        "day": "7",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "411",
+        "day": "8",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "420",
+        "day": "9",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "430",
+        "day": "10",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "440",
+        "day": "11",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "450",
+        "day": "12",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "460",
+        "day": "13",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "465",
+        "day": "14",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "470",
+        "day": "15",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "460",
+        "day": "16",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "450",
+        "day": "17",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "440",
+        "day": "18",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "19",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "20",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "21",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "22",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "23",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "24",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "25",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "26",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "27",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "28",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "29",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "30",
+        "month": "11"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "1",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "2",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "3",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "4",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "5",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "6",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "7",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "8",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "9",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "10",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "11",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "12",
+        "month": "12"
+      }
+    },
+    {
+      "data": {
+        "dolar_today": "",
+        "day": "13",
+        "month": "12"
+      }
+    }
+  ]
+}
