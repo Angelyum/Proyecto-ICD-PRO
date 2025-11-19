@@ -1,0 +1,35 @@
+import math
+
+def promedio(lista):
+    return sum(lista) / len(lista)
+
+def mediana(lista):
+    lista = sorted(lista)
+    n = len(lista)
+    if n % 2 == 0:
+        return (lista[n//2 - 1] + lista[n//2]) / 2
+    else:
+        return lista[n//2]
+
+def moda(lista):
+    conteo = {}
+    for x in lista:
+        conteo[x] = conteo.get(x, 0) + 1
+    return max(conteo, key=conteo.get)
+
+def varianza(lista):
+    m = promedio(lista)
+    return sum((x - m)**2 for x in lista) / len(lista)
+
+def desviacion(lista):
+    return math.sqrt(varianza(lista))
+
+
+x = [1,2,4,5,3,5,6,7,8,9,7,5,4,3]
+
+
+print(promedio(x))
+print(mediana(x))
+print(moda(x))
+print(varianza(x))
+print(desviacion(x))
