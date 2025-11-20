@@ -1,0 +1,27 @@
+{
+  "mipymes": [
+    {
+      "id": "",
+      "names": "",
+      "location": {
+        "province": "",
+        "municipality": "",
+        "lat": "",
+        "long": ""
+      },
+      "currency": [""],
+      "payment_methods": [""],
+      "website": "",
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    }
+  ]
+}
