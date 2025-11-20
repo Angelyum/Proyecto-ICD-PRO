@@ -2,7 +2,6 @@
 {
   "place": "La Habana",
   "website": "El Toque",
-  "dolar_increase": [],
   "data": [
     {
       "data": {
@@ -216,14 +215,14 @@
     },
     {
       "data": {
-        "dolar_today": "",
+        "dolar_today": "440",
         "day": "19",
         "month": "11"
       }
     },
     {
       "data": {
-        "dolar_today": "",
+        "dolar_today": "435",
         "day": "20",
         "month": "11"
       }
