@@ -1,0 +1,703 @@
+{
+  "mipymes": [
+    {
+      "id": "1",
+      "names": "Mipyme San Rafael//Marquez Gonzales",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.136056",
+        "long": "-82.371611"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "names": "Santy's",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": " 23.136083",
+        "long": "-82.371472"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo","Tarjeta"],
+      "website":"" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "names": "Mipyme Belascoin/ San Rafael//San Miguel ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.136194",
+        "long": "-82.370083"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "names": "Mipyme Belascoin/Neptuno//San Miguel ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.136194",
+        "long": "-82.370083"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "names": "El Encanto",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137595",
+        "long": "-82.370405"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "names": "Mipyme/Neptuno // Concordia ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137944",
+        "long": "-82.370417"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "names": "Mipyme Belascoin/ Virtudes y Animas",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.138972",
+        "long": "-82.370361"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "names": "Mipyme Belascoin/Animas y Lagunas",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.139889",
+        "long": "-82.370389"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "names": "Mipyme San Lazaro/ San Francisco y Espada",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.138557488506628, ",
+        "long": "-82.37712161355257"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "",
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "names": "Mipyme San Lazaro / Espada y San Francisco ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.13864841500134",
+        "long": " -82.37684410947476"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "names": "Mipyme San Lazaro/ Espada y Hospital",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.138825868150132",
+        "long": "-82.37636565413756"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "12",
+      "names": "Mipyme San Lazaro / Espada y Hospital",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.138873531145887 ",
+        "long": "-82.37626358366613"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "names": "Mipyme San Lazaro/ Hospital y Aramburu",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.139108179492464 ",
+        "long": "-82.37542708426918"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "names": "La farola",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.13931349645776",
+        "long": "-82.37495341350198"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "names": "Mipyme Hospital/ Neptuno y Concordia ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137522969916976",
+        "long": "-82.3758295161965"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "names": "Mipyme Infanta / Neptuno y San Miguel",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137014390305826",
+        "long": ""
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "names": "Mipyme Infanta / Neptuno y San Miguel",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.13669772656156",
+        "long": "-82.37848700971728"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "18",
+      "names": "Stella Artois",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.135898067304353",
+        "long": "-82.37439293914744"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "19",
+      "names": "Mipyme Infanta /San Rafael y San Martin",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.135287124405018",
+        "long": "-82.37835135233634"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "20",
+      "names": "Mipyme Infanta / San Martin y Calle Valle ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.134759344284205",
+        "long": "-82.37837222270387"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "21",
+      "names": "Mipyme Infanta/ Calle Valle y Zanja ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.13394048130318",
+        "long": "-82.37831656837632"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "22",
+      "names": "Mipyme Zanja/ Hospital y Espada ",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.133850917853252",
+        "long": "-82.37583995133257"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "23",
+      "names": "Mipyme Neptuno/ Soledad y Espada",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137380019617844",
+        "long": "-82.37405838629059"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "24",
+      "names": "Mipyme Neptuno/Soledad y Oquendo",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.137338329254423",
+        "long": "-82.37345291758614"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "names": "Mipyme L / 19 y 17",
+      "location": {
+        "province": "La Habana",
+        "municipality": "Plaza",
+        "lat": "23.141979350863526",
+        "long": "-82.38535816560498"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "26",
+      "names": "Mipyme Av.23 /I e J",
+      "location": {
+        "province": "La Habana",
+        "municipality": "Plaza",
+        "lat": "23.13829994500314",
+        "long": "-82.38536712964954"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "26",
+      "names": "Mipyme J / 27 y 25",
+      "location": {
+        "province": "La Habana",
+        "municipality": "Plaza",
+        "lat": "23.13680621551791",
+        "long": "-82.38396841470505"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "27",
+      "names": "Mipyme J / 25 y 23",
+      "location": {
+        "province": "La Habana",
+        "municipality": "Plaza",
+        "lat": "23.13778546848744",
+        "long": "-82.3847342321356"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "28",
+      "names": "Mipyme J / 25 y 23",
+      "location": {
+        "province": "La Habana",
+        "municipality": "Plaza",
+        "lat": "23.13787568905602",
+        "long": "-82.38481430096171"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "29",
+      "names": "",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "",
+        "long": ""
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    },{
+      "id": "30",
+      "names": "",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "",
+        "long": ""
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "id": "",
+          "type": "",
+          "brand": "",
+          "currency": "",
+          "price": "",
+          "origin": ""
+        }
+      ]
+    }
+    
+  ]
+}
