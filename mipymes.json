@@ -2,7 +2,7 @@
   "mipymes": [
     {
       "id": "1",
-      "names": "Mipyme San Rafael//Marquez Gonzales",
+      "names": "Mipyme San Rafael y Marquez Gonzales",
       "location": {
         "province": "La Habana",
         "municipality": "CH",
@@ -14,11 +14,110 @@
       "website": "" ,
       "product": [
         {
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Cíes",
+          "price": 680
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Donatella",
+          "price": 360
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Capri",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 110
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "nose",
+          "price": 550
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Mina",
+          "price": 70 
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 125
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 180200
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Páteko",
+          "price": 750
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 230
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 230
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 620
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 160
+        },{ 
+          "ID":"",
+          "type": "Aceite 5L",
+          "brand": "?",
+          "price": 7500
+        },{ 
+          "ID":"",
+          "type": "Tohallas Humedas",
+          "brand": "VIVA",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Detergente",
+          "brand": "BOOM", 
+          "price": 620
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Imperial",
+          "price": 210
+        },{
+          "ID":"",
+          "type": "Patatas",
+          "brand": "Paparica",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "?",
+          "price": 350
         }
       ]
     },
@@ -35,19 +134,72 @@
       "payment_methods": ["Efectivo","Tarjeta"],
       "website":"" ,
       "product": [
-        {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+        { 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Cíes",
+          "price": 550
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Ovella",
+          "price": 320
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "KRIS",
+          "price": 300
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Custard Creams",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "SunFlower",
+          "price": 990
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "TWS",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "Tiss",
+          "price": 110
+        },{ 
+          "ID":"",
+          "type": "Detergente",
+          "brand": "?",
+          "price": 630
+        },{ 
+          "ID":"",
+          "type": "Tohallas Humedas",
+          "brand": "?",
+          "price": 550
+        },{
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "El delicioso",
+          "price": 450
+        },{
+          "ID":"",
+          "type": "Vino Seco",
+          "brand": "El delicioso",
+          "price": 450
         }
       ]
     },
     {
       "id": "3",
-      "names": "Mipyme Belascoin/ San Rafael//San Miguel ",
+      "names": "Mipyme Belascoin/ San Rafael y San Miguel ",
       "location": {
         "province": "La Habana",
         "municipality": "CH",
@@ -59,18 +211,86 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+          "ID":"",
+          "type":"Latas de Refresco",
+          "brand": "Santa",
+          "price": 230
+        },{
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 140
+        },{
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 60
+        },{
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 130
+        },{
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 200
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Capri",
+          "price": 450
+        },{
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Vima",
+          "price": 600
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Virshaan",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Cristal",
+          "price": 700
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "KRIS",
+          "price": 400
+        },{
+          "ID":"",
+          "type": "Aceite",
+          "brand": "Vima",
+          "price": 1000
+        },{
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Celorrio",
+          "price": 1600
+        },{
+          "ID":"",
+          "type": "Patatas",
+          "brand": "Paparica",
+          "price": 600
         }
       ]
     },
     {
       "id": "4",
-      "names": "Mipyme Belascoin/Neptuno//San Miguel ",
+      "names": "Mipyme Belascoin /Neptuno y San Miguel ",
       "location": {
         "province": "La Habana",
         "municipality": "CH",
@@ -82,12 +302,61 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 300
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 250
+        },{
+          "ID":"",
+          "type": "Energizante",
+          "brand": "RedBull",
+          "price": 600
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Banetti",
+          "price": 350
+        },{
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "?",
+          "price": 500
+        },{
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 180
+        },{
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Energy",
+          "price": 700
+        },{
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 560
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 120
+        },{
+          "ID":"",
+          "type": "Tohallas Humedas",
+          "brand": "VIVA",
+          "price": 1000 
         }
       ]
     },
@@ -105,12 +374,51 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Azucar",
+          "brand": "Energy",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Mencho",
+          "price": 600
+        },{
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Crokatinas",
+          "price": 170
+        },{
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 120
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Celorrio",
+          "price": 1500
+        },{
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Bodell",
+          "price": 300
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Assaada",
+          "price": 350
+        },{
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
         }
       ]
     },
@@ -128,12 +436,46 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"", 
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 230
+        },{
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 120
+        },{
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Gova",
+          "price": 60
+        },{
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Marías",
+          "price": 360
+        },{
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Ovella",
+          "price": 300
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 120
+        },{
+          "ID":"",
+          "type": "Patatas",
+          "brand": "iki",
+          "price": 900
         }
       ]
     },
@@ -151,12 +493,36 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 250
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 120
+        },{
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Dulce",
+          "price": 350
+        },{
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Nonapepa",
+          "price": 500
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Imperial",
+          "price": 300
         }
       ]
     },
@@ -173,13 +539,51 @@
       "payment_methods": ["Efectivo"],
       "website": "" ,
       "product": [
-        {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+        { 
+         "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 150
+        },{ 
+         "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 700
+        },{ 
+         "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Boom Boom",
+          "price": 300
+        },{ 
+         "ID":"",
+          "type": "Mayonesa",
+          "brand": "Cosami",
+          "price": 900
+        },{ 
+         "ID":"",
+          "type": "Vino Seco",
+          "brand": "?",
+          "price": 350
+        },{ 
+         "ID":"",
+          "type": "Vinagre",
+          "brand": "?",
+          "price": 350
+        },{ 
+         "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "Castellum",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "ADA",
+          "price":1100
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 140
         }
       ]
     },
@@ -197,12 +601,46 @@
       "website": "",
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 330
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "TWS",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Campo",
+          "price": 480
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Ovella",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Fresko",
+          "price": 730
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Sam",
+          "price": 690
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 150
         }
       ]
     },
@@ -220,12 +658,16 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Salricos",
+          "price": 200
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Yily",
+          "price": 550
         }
       ]
     },
@@ -243,12 +685,41 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Sazón",
+          "brand": "Tropicana",
+          "price": 50
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Vima",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Patéko",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Cosami",
+          "price": 950
+        },{ 
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "Deleite",
+          "price": 400
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Ovella",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "?",
+          "price": 400
         }
       ]
     },{
@@ -265,12 +736,50 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+          "ID":"",
+          "type": "Detergente",
+          "brand": "L",
+          "price": 680
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "Sarita",
+          "price": 890
+        },{ 
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "El delicioso",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price":150
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Boom Boom",
+          "price": 240
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Yily",
+          "price": 500
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "Tiss",
+          "price":130
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Dulce",
+          "price": 400
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Dux",
+          "price":90
         }
       ]
     },
@@ -288,12 +797,71 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 150
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price":200
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "RedBull",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "Aldaketa",
+          "price": 4500
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Inn",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Cid",
+          "price": 1800
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 120
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Celorrio",
+          "price": 1500
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "?",
+          "price": 380
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Energy",
+          "price": 750
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "?",
+          "price": 750
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 60
         }
       ]
     },
@@ -311,12 +879,66 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Niagara",
+          "price": 200
+        },{ 
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "ADA",
+          "price": 500
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Celorrio",
+          "price": 1600
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 130
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Doga",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Bodell",
+          "price":290
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "?",
+          "price": 350
         }
       ]
     },
@@ -334,12 +956,36 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Espaguethi",
+          "brand": "Lucy",
+          "price": 340
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Vivarroz",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Canelo",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Pramesa",
+          "price":1300
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{ 
+          "ID":"",
+          "type": "Detergente",
+          "brand": "nt",
+          "price": 200
         }
       ]
     },
@@ -357,12 +1003,51 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 680 
+        },{ 
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "El delicioso",
+          "price": 330
+        },{ 
+          "ID":"",
+          "type": "Vino Seco",
+          "brand": "El delicioso",
+          "price": 330
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "?",
+          "price": 370
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Gonca",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Crokatinas",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Mirante",
+          "price": 750
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Mama Rogelia",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "?",
+          "price": 1550
         }
       ]
     },
@@ -380,12 +1065,76 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Energizante",
+          "brand": "TWS",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 300
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "?",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Canoro",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 150
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{ 
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "ADA",
+          "price": 450
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Imperial",
+          "price": 200 
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Zenova",
+          "price": 350
         }
       ]
     },{
@@ -402,12 +1151,56 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "RedBull",
+          "price": 550
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Plato Rico",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Detergente",
+          "brand": "L",
+          "price": 630
+        },{ 
+          "ID":"",
+          "type": "Tohallas Humedas",
+          "brand": "Dex",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 600
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 230
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 90
+        },{ 
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "ADA",
+          "price": 450
         }
       ]
     },{
@@ -424,13 +1217,37 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
-        }
+         
+         "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Rainha",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Napolitana",
+          "price": 370
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Silverfooods",
+          "price": 900
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "?",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Noby",
+          "price": 160
+         }
       ]
     },{
       "id": "20",
@@ -446,12 +1263,46 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 120
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "TWS",
+          "price": 260
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "?",
+          "price": 1100
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Mama Rogelia",
+          "price": 670
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "Elessa",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Canoro",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "?",
+          "price": 500
         }
       ]
     },{
@@ -468,12 +1319,41 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Espaguethi",
+          "brand": "ADA",
+          "price": 315
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "La Pradera",
+          "price": 620
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "ADA",
+          "price": 400
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "SaltiCrakers",
+          "price": 170
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 150
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 65
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
         }
       ]
     },{
@@ -490,12 +1370,36 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Didi",
+          "price": 500
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "MarForce",
+          "price": 4000
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "KRIS",
+          "price": 450
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Uniáo",
+          "price": 620
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "?",
+          "price": 650
         }
       ]
     },{
@@ -512,12 +1416,91 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 125
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 60
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 130
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "SaltiCrakers",
+          "price": 180
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 150
+        },{ 
+          "ID":"",
+          "type": "Energizante",
+          "brand": "RedBull",
+          "price": 420
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 220
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "ALGUD",
+          "price": 360
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Imperial",
+          "price": 210
+        },{ 
+          "ID":"",
+          "type": "Aceite",
+          "brand": "Vima",
+          "price": 990
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "?",
+          "price": 950
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Energy",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "?",
+          "price": 320
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "?",
+          "price": 450
+        },{ 
+          "ID":"",
+          "type": "Patatas",
+          "brand": "Paparica",
+          "price": 650
         }
       ]
     },{
@@ -534,12 +1517,56 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Energizante",
+          "brand": "RedBull",
+          "price": 550
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Ritz",
+          "price": 240
+        },{ 
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 240
+        },{ 
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "Castellum",
+          "price": 450
+        },{ 
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Energy",
+          "price": 650
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Victoria",
+          "price": 1000
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "?",
+          "price": 300
+        },{ 
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "TCP",
+          "price": 350
+        },{ 
+          "ID":"",
+          "type": "Detergente",
+          "brand": "LAVANE",
+          "price": 630
+        },{ 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Porleo",
+          "price": 140
         }
       ]
     },
@@ -557,12 +1584,46 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Porleo",
+          "price": 200
+        },{ 
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Crokatinas",
+          "price": 250
+        },{ 
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Rainha",
+          "price": 850
+        },{ 
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "?",
+          "price": 470
+        },{ 
+          "ID":"",
+          "type": "Coditos",
+          "brand": "?",
+          "price": 400
+        },{ 
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Vima",
+          "price": 700
+        },{ 
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "?",
+          "price": 1000
+        },{ 
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "Deleite",
+          "price": 250
         }
       ]
     },{
@@ -579,17 +1640,31 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{ 
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 110
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 120
+        },{ 
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 70
         }
       ]
     },{
       "id": "26",
-      "names": "Mipyme J / 27 y 25",
+      "names": "Mipyme Gran Pizzero",
       "location": {
         "province": "La Habana",
         "municipality": "Plaza",
@@ -600,13 +1675,26 @@
       "payment_methods": ["Efectivo"],
       "website": "" ,
       "product": [
-        {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+        { 
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 160
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Pepsi",
+          "price": 350
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 280
+        },{
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "?",
+          "price": 400
         }
       ]
     },{
@@ -623,12 +1711,66 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "Saltitacos",
+          "price": 190
+        },{
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "Cosami",
+          "price": 1050
+        },{
+          "ID":"",
+          "type": "Caramelos",
+          "brand": "Freegels",
+          "price": 100
+        },{
+          "ID":"",
+          "type": "Detergente",
+          "brand": "LAVANE",
+          "price": 630
+        },{
+          "ID":"",
+          "type": "Pasta de Tomate",
+          "brand": "ADA",
+          "price": 500
+        },{
+          "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "Vima",
+          "price": 720
+        },{
+          "ID":"",
+          "type": "Azucar",
+          "brand": "Patéko",
+          "price": 800
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Emocou",
+          "price": 800
+        },{
+          "ID":"",
+          "type": "Tohallas Humedas",
+          "brand": "VIVA",
+          "price": 800
+        },{
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 180
+        },{
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Boom Boom",
+          "price": 260
         }
       ]
     },{
@@ -645,12 +1787,36 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Pure de Tomate",
+          "brand": "?",
+          "price": 600
+        },{
+          "ID":"",
+          "type": "Sazón",
+          "brand": "Iberia",
+          "price": 100
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Delicia",
+          "price": 400
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Canoro",
+          "price": 850
+        },{
+          "ID":"",
+          "type": "Azucar",
+          "brand": "energy",
+          "price": 800
+        },{
+          "ID":"",
+          "type": "Mayonesa",
+          "brand": "?",
+          "price": 1500
         }
       ]
     },{
@@ -667,12 +1833,41 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
-          "type": "",
-          "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+         
+         "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 130
+        },{ 
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "Acacia",
+          "price": 150
+        },{ 
+          "ID":"",
+          "type": "Pomo de Refresco",
+          "brand": "Ciego Montero",
+          "price": 850
+        },{ 
+          "ID":"",
+          "type": "Agua",
+          "brand": "Ciego Montero",
+          "price": 180
+        },{
+         "ID":"",
+          "type": "Espaguethi",
+          "brand": "Maka",
+          "price": 400
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "?",
+          "price": 750
+        },{
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "Aldaketa",
+          "price": 960
         }
       ]
     },{
@@ -689,12 +1884,10 @@
       "website": "" ,
       "product": [
         {
-          "id": "",
+          "ID":"",
           "type": "",
           "brand": "",
-          "currency": "",
-          "price": "",
-          "origin": ""
+          "price": null
         }
       ]
     }
