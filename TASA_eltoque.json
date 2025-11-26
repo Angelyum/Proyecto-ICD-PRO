@@ -257,14 +257,14 @@
     },
     {
       "data": {
-        "dolar_today": "",
+        "dolar_today": "435",
         "day": "25",
         "month": "11"
       }
     },
     {
       "data": {
-        "dolar_today": "",
+        "dolar_today": "440",
         "day": "26",
         "month": "11"
       }
@@ -390,4 +390,5 @@
     }
   ]
 }
+
 
