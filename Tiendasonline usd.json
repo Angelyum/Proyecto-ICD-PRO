@@ -1,0 +1,1566 @@
+
+ {
+  "websites": [
+    {
+      "name": "CubaMax",
+      "link": "https://cubamax.com",
+      "products_by_type": {
+        "Arroz": [
+          {
+            "name": "Arroz Criollo",
+            "brand": "Alla",
+            "price": 1.84
+          },
+          {
+            "name": "Arroz Criollo",
+            "brand": "Cosecha Real",
+            "price": 0.94
+          },
+          {
+            "name": "Arroz Largo",
+            "brand": "Dacsa",
+            "price": 3.0
+          },
+          {
+            "name": "Arroz Normal",
+            "brand": "TioJose",
+            "price": 1.99
+          },
+          {
+            "name": "Arroz Pairboilizado",
+            "brand": "Kilao",
+            "price": 2.01
+          },
+          {
+            "name": "Arroz Normal",
+            "brand": "Rico Prato",
+            "price": 2.0
+          }
+        ],
+        "Espaguethi": [
+          {
+            "name": "Espagueti",
+            "brand": "Galo",
+            "price": 1.14
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Bodrum",
+            "price": 0.87
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Princesa",
+            "price": 0.86
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Goya",
+            "price": 2.56
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Doga",
+            "price": 0.86
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Lucy",
+            "price": 0.85
+          },
+          {
+            "name": "Espagueti",
+            "brand": "Elessa",
+            "price": 0.93
+          }
+        ],
+        "Caramelos": [
+          {
+            "name": "Caramelos Sabor Yerbabuena",
+            "brand": "Halls",
+            "price": 0.99
+          },
+          {
+            "name": "Caramelos Mentol",
+            "brand": "Freegells",
+            "price": 0.31
+          },
+          {
+            "name": "Caramelos Mentol",
+            "brand": "Freegells",
+            "price": 0.91
+          }
+        ],
+        "Pure de Tomate": [
+          {
+            "name": "Pure de Tomate",
+            "brand": "Sara",
+            "price": 1.89
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Goya",
+            "price": 1.48
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Sabrosisimo",
+            "price": 1.31
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Vima",
+            "price": 1.31
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Marwa",
+            "price": 1.29
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Drojo",
+            "price": 1.51
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Virshaan",
+            "price": 1.13
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Campo",
+            "price": 1.36
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Castellum",
+            "price": 1.01
+          },
+          {
+            "name": "Pure de Tomate",
+            "brand": "Portobello",
+            "price": 1.60
+          }
+        ],
+        "Sazón": [
+          {
+            "name": "Hojas Sazonadoras sabor Ahumado",
+            "brand": "Maggi",
+            "price": 1.99
+          },
+          {
+            "name": "Hojas Sazonadoras sabor pastor",
+            "brand": "Maggi",
+            "price": 1.99
+          },
+          {
+            "name": "Sazon Completo",
+            "brand": "Alla",
+            "price": 0.55
+          },
+          {
+            "name": "Sazon Completo",
+            "brand": "Cosecha Real",
+            "price": 1.69
+          },
+          {
+            "name": "Sazon con azafran",
+            "brand": "Goya",
+            "price": 0.29
+          }
+        ],
+        "Galletas Dulces": [],
+        "Galletas Saladas": [
+          {
+            "name": "Galletas Crokantinas",
+            "brand": "Crokantinas",
+            "price": 0.55
+          },
+          {
+            "name": "Galletas Salricas",
+            "brand": "Salricas",
+            "price": 0.67
+          }
+        ],
+        "Azucar": [
+          {
+            "name": "Azucar Blanca",
+            "brand": "Egea",
+            "price": 2.78
+          },
+          {
+            "name": "Azucar Blanca",
+            "brand": "Maisdoce",
+            "price": 1.94
+          },
+          {
+            "name": "Azucar Blanca",
+            "brand": "Campester",
+            "price": 2.74
+          },
+          {
+            "name": "Azucar Refino",
+            "brand": "Sabore",
+            "price": 2.18
+          },
+          {
+            "name": "Azucar Refino",
+            "brand": "Dale",
+            "price": 1.08
+          },{
+            "name": "Azucar Blanca",
+            "brand": "energy",
+            "price": 1.75
+          }
+        ],
+        "Latas de Refresco": [
+          {
+            "name": "Refresco de Cola",
+            "brand": "Coca Cola",
+            "price": 1.14
+          },
+          {
+            "name": "Refresco",
+            "brand": "Ciego Montero",
+            "price": 0.66
+          },
+          {
+            "name": "Refresco de Limon",
+            "brand": "Seven Up",
+            "price": 1.01
+          },
+          {
+            "name": "Refresco de Cola",
+            "brand": "Pepsi",
+            "price": 0.72
+          },
+          {
+            "name": "Refresco",
+            "brand": "Santa",
+            "price": 0.63
+          }
+        ],
+        "Pomo de Refresco": [
+          {
+            "name": "Refresco en Pomo",
+            "brand": "Ciego Montero",
+            "price": 1.66
+          }
+        ],
+        "Agua": [
+          {
+            "name": "Agua Purificada",
+            "brand": "Niagara",
+            "price": 0.60
+          },
+          {
+            "name": "Agua Purificada",
+            "brand": "Cool Heaven",
+            "price": 0.38
+          },
+          {
+            "name": "Agua Purificada",
+            "brand": "Los Picsis",
+            "price": 0.38
+          }
+        ],
+        "Toallas Humedas": [
+          {
+            "name": "",
+            "brand": "Genial",
+            "price": 4.30
+          },{
+            "name": "",
+            "brand": "Leno",
+            "price": 4.30
+          },{
+            "name": "",
+            "brand": "Doxa",
+            "price": 2.78
+          },{
+            "name": "",
+            "brand": "Alaiz",
+            "price": 2.71
+          }
+        ],
+        "Detergente": [
+          {
+            "name": "",
+            "brand": "Sove",
+            "price": 1.87
+          },{
+            "name": "",
+            "brand": "KBT",
+            "price": 1.93
+          },{
+            "name": "",
+            "brand": "Yami",
+            "price": 2.62
+          },{
+            "name": "",
+            "brand": "Super Yu",
+            "price": 2.53
+          },{
+            "name": "",
+            "brand": "Silver Bright",
+            "price": 2.98
+          }
+        ],
+        "Papel Higienico": [
+          {
+            "name": "Papel Higienico",
+            "brand": "La Excelencia",
+            "price": 0.66
+          },
+          {
+            "name": "Papel Higienico",
+            "brand": "Aurora",
+            "price": 0.49
+          },
+          {
+            "name": "Papel Higienico",
+            "brand": "Acacia",
+            "price": 0.40
+          }
+        ],
+        "Coditos": [
+          {
+            "name": "",
+            "brand": "Goya",
+            "price": 2.64
+          },{
+            "name": "",
+            "brand": "Cairo",
+            "price": 1.74
+          },{
+            "name": "",
+            "brand": "Bodrum",
+            "price": 0.92
+          },{
+            "name": "",
+            "brand": "ADA",
+            "price": 0.70
+          },{
+            "name": "",
+            "brand": "Princesa",
+            "price": 0.52
+          },{
+            "name": "",
+            "brand": "Super Yu",
+            "price": 1.44
+          }
+        ],
+        "Vinagre": [
+          {
+            "name": "Vinagre Balsamico",
+            "brand": "Darro",
+            "price": 3.99
+          },
+          {
+            "name": "Vinagre Balsamico",
+            "brand": "Goya",
+            "price": 4.65
+          },
+          {
+            "name": "Vinagre Claro",
+            "brand": "Don Roy",
+            "price": 1.91
+          },
+          {
+            "name": "Vinagre",
+            "brand": "Generico",
+            "price": 2.02
+          }
+        ],
+        "Aceite": [
+          {
+            "name": "Aceite Vegetal",
+            "brand": "Sumavi",
+            "price": 3.38
+          },
+          {
+            "name": "Aceite de Oliva",
+            "brand": "Aldaketa",
+            "price": 7.61
+          },
+          {
+            "name": "Aceite de Soya",
+            "brand": "Yeya",
+            "price": 3.33
+          },
+          {
+            "name": "Aceite Vegetal",
+            "brand": "Perca sem",
+            "price": 3.81
+          },
+          {
+            "name": "Aceite de Soya",
+            "brand": "Kada",
+            "price": 2.39
+          },
+          {
+            "name": "Aceite de Soya",
+            "brand": "Saude",
+            "price": 2.71
+          },
+          {
+            "name": "Aceite de Girasol",
+            "brand": "Kadao",
+            "price": 3.30
+          },
+          {
+            "name": "Aceite de Soya",
+            "brand": "Sarita",
+            "price": 3.32
+          },
+          {
+            "name": "Aceite de Girasol",
+            "brand": "Kada",
+            "price": 2.68
+          }
+        ],
+        "Energizante": [
+          {
+            "name": "",
+            "brand": "X-ray",
+            "price": 0.89
+          },{
+            "name": "",
+            "brand": "Panthera Pardus",
+            "price": 2.75
+          },{
+            "name": "",
+            "brand": "Extreme",
+            "price": 0.99
+          },{
+            "name": "",
+            "brand": "Fast",
+            "price": 0.77
+          }
+        ],
+        "Vino Seco": [
+          {
+            "name": "",
+            "brand": "La Victoria",
+            "price": 2.02
+          },{
+            "name": "",
+            "brand": "Don Roy",
+            "price": 2.04
+          }
+        ],
+        "Mayonesa": [
+          {
+            "name": "",
+            "brand": "Saude",
+            "price": 2.08
+          },{
+            "name": "",
+            "brand": "Vivo",
+            "price": 2.36
+          },{
+            "name": "",
+            "brand": "Family",
+            "price": 2.42
+          },{
+            "name": "",
+            "brand": "Celorrio",
+            "price": 3.69
+          },{
+            "name": "",
+            "brand": "HollandPark",
+            "price": 2.17
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 3.50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xatapulk",
+      "link": "https://xatapulk.com",
+      "products_by_type": {
+        "Arroz": [
+          {
+            "name": "Arroz Vaporizado",
+            "brand": "Dacsa",
+            "price": 2.88
+          },{
+            "name": "Arroz Redondo",
+            "brand": "Dacsa",
+            "price": 3.36
+          },{
+            "name": "Arroz Largo",
+            "brand": "Disiempre",
+            "price": 1.86
+          },{
+            "name": "Arroz Largo",
+            "brand": "Rico Prato",
+            "price": 1.58
+          },{
+            "name": "",
+            "brand": "TioJose",
+            "price": 1.96
+          },{
+            "name": "",
+            "brand": "Pateko",
+            "price": 2.31
+          }
+        ],
+        "Espaguethi": [
+          {
+            "name": "",
+            "brand": "Arden Makarna",
+            "price": 0.64
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 2.64
+          },{
+            "name": "",
+            "brand": "Princesa",
+            "price": 0.84
+          },{
+            "name": "",
+            "brand": "Doga",
+            "price": 0.98
+          },{
+            "name": "",
+            "brand": "La Pastoni",
+            "price": 1.04
+          },{
+            "name": "",
+            "brand": "Bodrum",
+            "price": 0.84
+          },{
+            "name": "",
+            "brand": "Pasta Rico",
+            "price": 1.15
+          },{
+            "name": "",
+            "brand": "ADA",
+            "price": 0.77
+          },{
+            "name": "",
+            "brand": "Lucy",
+            "price": 0.82
+          },{
+            "name": "",
+            "brand": "Doga",
+            "price": 0.82
+          }
+        ],
+        "Caramelos": [
+          {
+            "name": "",
+            "brand": "Halls",
+            "price": 0.95
+          },{
+            "name": "",
+            "brand": "Menthoplus",
+            "price": 0.46
+          },{
+            "name": "",
+            "brand": "Freegells",
+            "price": 0.30
+          }
+        ],
+        "Pure de Tomate": [
+          {
+            "name": "",
+            "brand": "Los del Pino",
+            "price": 2.71
+          },{
+            "name": "",
+            "brand": "HollandPark",
+            "price": 1.62
+          },{
+            "name": "",
+            "brand": "Maito",
+            "price": 0.92
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 1.39
+          },{
+            "name": "",
+            "brand": "Campo",
+            "price": 1.30
+          },{
+            "name": "",
+            "brand": "Virshaan",
+            "price": 1.08
+          },{
+            "name": "",
+            "brand": "Badelli",
+            "price": 1.24
+          }
+        ],
+        "Sazón": [{
+            "name": "Hojas sazonadoras sabor a hierbas",
+            "brand": "Maggi",
+            "price": 1.91
+          },{
+            "name": "Hojas sazonadoras sabor a Ahumado",
+            "brand": "Maggi",
+            "price": 1.91
+          },{
+            "name": "Sazon Completo",
+            "brand": "Cosecha Real",
+            "price": 3.14
+          }
+        ],
+        "Galletas Dulces": [
+          {
+            "name": "",
+            "brand": "Blackout",
+            "price": 0.76
+          },{
+            "name": "",
+            "brand": "Dulce",
+            "price": 0.75
+          },{
+            "name": "",
+            "brand": "Gol",
+            "price": 0.46
+          }
+        ],
+        "Galletas Saladas": [
+          {
+            "name": "",
+            "brand": "Dux",
+            "price": 0.28
+          },{
+            "name": "",
+            "brand": "Noel",
+            "price": 0.28
+          },{
+            "name": "",
+            "brand": "Salricas",
+            "price": 0.21
+          },{
+            "name": "",
+            "brand": "Crokantinas",
+            "price": 0.53
+          },{
+            "name": "",
+            "brand": "Saltitacos",
+            "price": 0.63
+          }
+        ],
+        "Azucar": [
+          {
+            "name": "Azucar Blanca",
+            "brand": "Energy",
+            "price": 1.97
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Gasparin",
+            "price": 2.31
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Yeya",
+            "price": 1.60
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Cosecha Real",
+            "price": 2.17
+          },{
+            "name": "Azucar Granulada",
+            "brand": "Vima",
+            "price": 2.54
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Super Yu",
+            "price": 2.40
+          }
+        ],
+        "Latas de Refresco": [
+          {
+            "name": "",
+            "brand": "Santa",
+            "price": 0.56
+          },{
+            "name": "",
+            "brand": "Pepsi",
+            "price": 0.67
+          },{
+            "name": "",
+            "brand": "7up",
+            "price": 0.70
+          },{
+            "name": "",
+            "brand": "BOOM BOOM",
+            "price": 0.72
+          },{
+            "name": "",
+            "brand": "Coca Cola",
+            "price": 1.04
+          }
+        ],
+        "Pomo de Refresco": [
+          {
+            "name": "",
+            "brand": "Ciego Montero",
+            "price": 1.54
+          },{
+            "name": "",
+            "brand": "Santa",
+            "price": 2.90
+          }
+        ],
+        "Agua": [
+          {
+            "name": "",
+            "brand": "Los Piscis",
+            "price": 0.33
+          },{
+            "name": "",
+            "brand": "Ciego Montero",
+            "price": 0.41
+          },{
+            "name": "",
+            "brand": "Niagara",
+            "price": 0.56
+          }
+        ],
+        "Toallas Humedas": [
+          {
+            "name": "",
+            "brand": "Genial",
+            "price": 4.13
+          }
+        ],
+        "Detergente": [
+          {
+            "name": "",
+            "brand": "nt",
+            "price": 0.50
+          },{
+            "name": "",
+            "brand": "Gal",
+            "price": 0.66
+          },{
+            "name": "",
+            "brand": "Yeya",
+            "price": 0.93
+          },{
+            "name": "",
+            "brand": "Super Yu",
+            "price": 0.94
+          },{
+            "name": "",
+            "brand": "Kala",
+            "price": 2.31
+          }
+        ],
+        "Papel Higienico": [
+          {
+            "name": "",
+            "brand": "La Excelencia",
+            "price": 0.31
+          },{
+            "name": "",
+            "brand": "Aurora",
+            "price": 0.47
+          },{
+            "name": "",
+            "brand": "Familia",
+            "price": 0.60
+          }
+        ],
+        "Coditos": [
+          {
+            "name": "",
+            "brand": "ADA",
+            "price": 0.67
+          },{
+            "name": "",
+            "brand": "Princesa",
+            "price": 0.86
+          },{
+            "name": "",
+            "brand": "Bodrum",
+            "price": 0.88
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 2.54
+          }
+        ],
+        "Vinagre": [
+          {
+            "name": "",
+            "brand": "El Roble",
+            "price": 0.95
+          },{
+            "name": "",
+            "brand": "San Jorge",
+            "price": 1.04
+          },{
+            "name": "",
+            "brand": "Continente",
+            "price": 1.12
+          },{
+            "name": "",
+            "brand": "Don Roy",
+            "price": 1.15
+          },{
+            "name": "",
+            "brand": "Darro",
+            "price": 1.34
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 1.40
+          },{
+            "name": "",
+            "brand": "Sabrozzi",
+            "price": 1.50
+          },{
+            "name": "",
+            "brand": "MCH Campestre",
+            "price": 1.50
+          }
+        ],
+        "Aceite": [
+          {
+            "name": "Aceite de Soya",
+            "brand": "Kada",
+            "price": 12.61
+          },{
+            "name": "Aceite de Soya",
+            "brand": "Suavit",
+            "price": 2.43
+          },{
+            "name": "Aceite Vegetal",
+            "brand": "Perca sem",
+            "price": 3.66
+          },{
+            "name": "Aceite Puro",
+            "brand": "Hysa",
+            "price": 2.00
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "El Caenas",
+            "price": 11.60
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "Ybarra",
+            "price": 8.11
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "Fresko",
+            "price": 3.45
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "Goya",
+            "price": 6.96
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "Laura",
+            "price": 12.13
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "Saffy",
+            "price": 12.02
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "Badelli",
+            "price": 2.64
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "Aloy",
+            "price": 2.31
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "El Caenas",
+            "price": 3.38
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "La española",
+            "price": 3.47
+          }
+        ],
+        "Energizante": [
+          {
+            "name": "",
+            "brand": "Panthera Pardus",
+            "price": 2.38
+          },{
+            "name": "",
+            "brand": "X-ray",
+            "price": 0.85
+          },{
+            "name": "",
+            "brand": "Extreme",
+            "price": 0.90
+          }
+        ],
+        "Vino Seco": [
+          {
+            "name": "",
+            "brand": "Don Roy",
+            "price": 1.96
+          },{
+            "name": "",
+            "brand": "MCH Campestre",
+            "price": 1.50
+          },{
+            "name": "",
+            "brand": "Vino Seco",
+            "price": 2.15
+          },{
+            "name": "",
+            "brand": "El Roble",
+            "price": 2.43
+          }
+        ],
+        "Mayonesa": [
+          {
+            "name": "",
+            "brand": "Cosami",
+            "price": 3.56
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 4.94
+          },{
+            "name": "",
+            "brand": "Findy",
+            "price": 4.63
+          },{
+            "name": "",
+            "brand": "HollandPark",
+            "price": 0
+          },{
+            "name": "",
+            "brand": "Saude",
+            "price": 1.91
+          },{
+            "name": "",
+            "brand": "Family",
+            "price": 2.31
+          },{
+            "name": "",
+            "brand": "Celorrio",
+            "price": 3.55
+          }
+        ]
+      }
+    },
+    {
+      "name": "Supermarket23",
+      "link": "https://supermarket23.com",
+      "products_by_type": {
+        "Arroz": [
+          {
+            "name": "",
+            "brand": "Rico Prato",
+            "price": 1.86
+          },{
+            "name": "",
+            "brand": "Iberia",
+            "price": 3.99
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 6.42
+          },{
+            "name": "",
+            "brand": "Kilao",
+            "price": 2.89
+          },{
+            "name": "",
+            "brand": "Pateko",
+            "price": 2.12
+          },{
+            "name": "",
+            "brand": "Cosecha Real",
+            "price": 1.23
+          }
+        ],
+        "Espaguethi": [
+          {
+            "name": "",
+            "brand": "Yeya",
+            "price": 1.97
+          },{
+            "name": "",
+            "brand": "Portobello",
+            "price": 1.36
+          },{
+            "name": "",
+            "brand": "ADA",
+            "price":0.82
+          },{
+            "name": "",
+            "brand": "Masreya",
+            "price": 0.83
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 0.94
+          },{
+            "name": "",
+            "brand": "Doga",
+            "price": 0.96
+          },{
+            "name": "",
+            "brand": "Comarico",
+            "price": 1.26
+          },{
+            "name": "",
+            "brand": "Arden Makarna",
+            "price": 0.75
+          },{
+            "name": "",
+            "brand": "Nova",
+            "price": 0.90
+          },{
+            "name": "",
+            "brand": "Lucy",
+            "price": 0.96
+          },{
+            "name": "",
+            "brand": "SeaSun",
+            "price": 0.80
+          },{
+            "name": "",
+            "brand": "Zonia",
+            "price": 0.99
+          },{
+            "name": "",
+            "brand": "Elessa",
+            "price": 1.05
+          },{
+            "name": "",
+            "brand": "Riavia",
+            "price": 1.04
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 2.41
+          },{
+            "name": "",
+            "brand": "Oba Eva",
+            "price": 0.96
+          }
+        ],
+        "Caramelos": [
+          {
+            "name": "",
+            "brand": "Freegells",
+            "price": 0.31
+          },{
+            "name": "",
+            "brand": "Halls",
+            "price": 0.99
+          }
+        ],
+        "Pure de Tomate": [
+          {
+            "name": "",
+            "brand": "Castellum",
+            "price": 0.93
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 1.53
+          },{
+            "name": "",
+            "brand": "Portobello",
+            "price": 1.50
+          },{
+            "name": "",
+            "brand": "Fine Tom",
+            "price": 0.96
+          },{
+            "name": "",
+            "brand": "Sabrosisimo",
+            "price": 1.55
+          },{
+            "name": "",
+            "brand": "Avituaia",
+            "price": 1.51
+          },{
+            "name": "",
+            "brand": "Portrane",
+            "price": 1.92
+          },{
+            "name": "",
+            "brand": "Virshaan",
+            "price": 1.70
+          },{
+            "name": "",
+            "brand": "Badelli",
+            "price": 1.69
+          }
+        ],
+        "Sazón": [
+          {
+            "name": "Sazon Completo",
+            "brand": "Yeya",
+            "price": 0.35
+          },{
+            "name": "Sazon Completo",
+            "brand": "Magia",
+            "price": 0.60
+          },{
+            "name": "Sazon Completo",
+            "brand": "Maggi",
+            "price": 0.41
+          },{
+            "name": "Sazon Natural",
+            "brand": "Alla",
+            "price": 1.78
+          },{
+            "name": "Sazon Completo",
+            "brand": "Alla",
+            "price": 0.63
+          },{
+            "name": "Sazon Especial",
+            "brand": "IFA",
+            "price": 0.14
+          },{
+            "name": "Sazon Tropical",
+            "brand": "Badia",
+            "price": 0.88
+          }
+        ],
+        "Galletas Dulces": [
+          {
+            "name": "",
+            "brand": "Gol",
+            "price": 0.55
+          },{
+            "name": "",
+            "brand": "Dulce",
+            "price": 1.78
+          },{
+            "name": "",
+            "brand": "Blackout",
+            "price": 1.00
+          }
+        ],
+        "Galletas Saladas": [
+          {
+            "name": "",
+            "brand": "Dux",
+            "price": 0.29
+          },{
+            "name": "",
+            "brand": "Dux",
+            "price": 2.39
+          },{
+            "name": "",
+            "brand": "Ritz",
+            "price": 2.19
+          },{
+            "name": "",
+            "brand": "Crokantinas",
+            "price": 0.62
+          }
+        ],
+        "Azucar": [
+          {
+            "name": "Azucar Blanca",
+            "brand": "Yeys",
+            "price": 1.65
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Pateko",
+            "price": 4.00
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Energy",
+            "price": 4.00
+          },{
+            "name": "Azucar Granulada",
+            "brand": "Super Yu",
+            "price": 1.99
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Egea",
+            "price": 1.05
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Azucarera",
+            "price": 2.99
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Maisdoce",
+            "price": 2.29
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Pruebalo",
+            "price": 2.37
+          },{
+            "name": "Azucar Blanca",
+            "brand": "Egea",
+            "price": 3.15
+          },{
+            "name": "Azucar Granulada",
+            "brand": "Vima",
+            "price": 3.01
+          }
+        ],
+        "Latas de Refresco": [
+          {
+            "name": "",
+            "brand": "Lito Soft",
+            "price": 0.87
+          },{
+            "name": "",
+            "brand": "Santa",
+            "price": 0.59
+          },{
+            "name": "",
+            "brand": "Ciego Montero",
+            "price": 0.65
+          },{
+            "name": "",
+            "brand": "Coca Cola",
+            "price": 1.13
+          },{
+            "name": "",
+            "brand": "Pepsi",
+            "price": 1.03
+          },{
+            "name": "",
+            "brand": "Cintra",
+            "price": 0.59
+          },{
+            "name": "",
+            "brand": "Brizo",
+            "price": 0.67
+          },{
+            "name": "",
+            "brand": "7up",
+            "price": 1.01
+          }
+        ],
+        "Pomo de Refresco": [
+          {
+            "name": "",
+            "brand": "Ciego Montero",
+            "price": 1.56
+          },{
+            "name": "",
+            "brand": "Kenti",
+            "price": 1.69
+          },{
+            "name": "",
+            "brand": "IFA",
+            "price": 3.26
+          }
+        ],
+          "Agua": [
+          {
+            "name": "",
+            "brand": "SantAnna",
+            "price": 0.35
+          },{
+            "name": "",
+            "brand": "Ciego Montero",
+            "price": 0.42
+          },{
+            "name": "",
+            "brand": "Aquadeus",
+            "price": 0.67
+          },{
+            "name": "",
+            "brand": "Lunares",
+            "price": 0.52
+          }
+        ],
+        "Toallas Humedas": [
+          {
+            "name": "",
+            "brand": "Genial",
+            "price": 5.73
+          },{
+            "name": "",
+            "brand": "DEX",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "Wipes Plus",
+            "price": 3.42
+          },{
+            "name": "",
+            "brand": "Mimidu",
+            "price": 2.65
+          },{
+            "name": "",
+            "brand": "Brisa Viva",
+            "price": 6.47
+          },{
+            "name": "",
+            "brand": "Doxa",
+            "price": 4.11
+          },{
+            "name": "",
+            "brand": "Lulla",
+            "price": 3.49
+          }
+        ],
+        "Detergente": [
+          {
+            "name": "",
+            "brand": "Gal",
+            "price": 1.30
+          },{
+            "name": "",
+            "brand": "Yeya",
+            "price": 1.93
+          },{
+            "name": "",
+            "brand": "Oxion",
+            "price": 0.81
+          },{
+            "name": "",
+            "brand": "KBT",
+            "price": 2.27
+          },{
+            "name": "",
+            "brand": "OMO",
+            "price": 7.16
+          },{
+            "name": "",
+            "brand": "Super Yu",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "Cleamax",
+            "price": 1.78
+          }
+        ],
+        "Papel Higienico": [
+          {
+            "name": "",
+            "brand": "Yeya",
+            "price": 0.68
+          },{
+            "name": "",
+            "brand": "Amoos",
+            "price": 0.80
+          },{
+            "name": "",
+            "brand": "Acacia",
+            "price": 0.59
+          },{
+            "name": "",
+            "brand": "La Excelencia",
+            "price": 0.43
+          }
+        ],
+        "Coditos": [
+          {
+            "name": "",
+            "brand": "Yeya",
+            "price": 0.85
+          },{
+            "name": "",
+            "brand": "ADA",
+            "price": 0.86
+          },{
+            "name": "",
+            "brand": "Oba Eva",
+            "price": 0.99
+          },{
+            "name": "",
+            "brand": "Zonia",
+            "price": 1.37
+          },{
+            "name": "",
+            "brand": "Cairo",
+            "price": 1.67
+          },{
+            "name": "",
+            "brand": "Princesa",
+            "price": 0.49
+          },{
+            "name": "",
+            "brand": "Comarrico",
+            "price": 0.49
+          },{
+            "name": "",
+            "brand": "Bodrum",
+            "price": 1.04
+          },{
+            "name": "",
+            "brand": "Super Yu",
+            "price": 1.35
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 2.61
+          }
+        ],
+        "Vinagre": [
+          {
+            "name": "",
+            "brand": "Yeya",
+            "price": 2.00
+          },{
+            "name": "Vinagre Balsamico",
+            "brand": "Yeya",
+            "price": 5.57
+          },{
+            "name": "",
+            "brand": "Egea",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "Aldaketa",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "Gourmet",
+            "price": 2.11
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 3.86
+          },{
+            "name": "",
+            "brand": "El Roble",
+            "price": 1.86
+          },{
+            "name": "",
+            "brand": "Goya",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "El delicioso",
+            "price": 1.57
+          },{
+            "name": "",
+            "brand": "Don Roy",
+            "price": 2.05
+          }
+        ],
+        "Aceite": [
+          {
+            "name": "Aceite Vegetal",
+            "brand": "Sarita",
+            "price": 2.54
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "ABRIL",
+            "price": 15.39
+          },{
+            "name": "Aceite de Soya",
+            "brand": "Yeya",
+            "price": 3.30
+          },{
+            "name": "Aceite de Girasol",
+            "brand": "Yeya",
+            "price": 8.34
+          },{
+            "name": "Aceite de Soya",
+            "brand": "Hysa",
+            "price": 3.82
+          },{
+            "name": "Aceite de Oliva",
+            "brand": "Yeya",
+            "price": 5.23
+          }
+        ],
+        "Energizante": [
+          {
+            "name": "",
+            "brand": "Extreme",
+            "price": 0.80
+          },{
+            "name": "",
+            "brand": "Flash",
+            "price": 1.37
+          },{
+            "name": "",
+            "brand": "X-ray",
+            "price": 0.88
+          },{
+            "name": "",
+            "brand": "Panthera Pardus",
+            "price": 2.81
+          },{
+            "name": "",
+            "brand": "RedBull",
+            "price": 1.57
+          },{
+            "name": "",
+            "brand": "Monster",
+            "price": 3.18
+          },{
+            "name": "",
+            "brand": "5shot",
+            "price": 0.78
+          },{
+            "name": "",
+            "brand": "Evolution",
+            "price": 1.41
+          },{
+            "name": "",
+            "brand": "Future Club",
+            "price": 1.49
+          }
+        ],
+        "Vino Seco": [
+          {
+            "name": "",
+            "brand": "La victoria",
+            "price": 2.30
+          },{
+            "name": "",
+            "brand": "Don Roy",
+            "price": 2.05
+          },{
+            "name": "",
+            "brand": "El Roble",
+            "price": 2.02
+          }
+        ],
+        "Mayonesa": [
+          {
+            "name": "",
+            "brand": "Yeya",
+            "price": 1.93
+          },{
+            "name": "",
+            "brand": "NOva",
+            "price": 2.47
+          },{
+            "name": "",
+            "brand": "Celorrio",
+            "price": 3.69
+          },{
+            "name": "",
+            "brand": "Kurtz",
+            "price": 8.56
+          },{
+            "name": "",
+            "brand": "Saude",
+            "price": 1.99
+          },{
+            "name": "",
+            "brand": "HollandPark",
+            "price": 2.81
+          },{
+            "name": "",
+            "brand": "Cosami",
+            "price": 3.49
+          },{
+            "name": "",
+            "brand": "Vima",
+            "price": 4.82
+          }
+        ]
+      }
+    }
+  ]
+}
