@@ -1,4 +1,4 @@
-{
+{ 
   "mipymes": [
     {
       "id": "1",
@@ -86,7 +86,7 @@
         },{ 
           "ID":"",
           "type": "Aceite 5L",
-          "brand": "?",
+          "brand": "Vima",
           "price": 7500
         },{ 
           "ID":"",
@@ -1872,12 +1872,12 @@
       ]
     },{
       "id": "30",
-      "names": "",
+      "names": "Mipyme San Miguel / Infanta y Basarrata",
       "location": {
         "province": "La Habana",
         "municipality": "CH",
-        "lat": "",
-        "long": ""
+        "lat": "23.136345199544515",
+        "long": "-82.3788377092957"
       },
       "currency": ["CUP"],
       "payment_methods": ["Efectivo"],
@@ -1885,9 +1885,89 @@
       "product": [
         {
           "ID":"",
-          "type": "",
-          "brand": "",
-          "price": null
+          "type": "Pure de Tomate",
+          "brand": "Marwa",
+          "price": 450
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "TioJose",
+          "price": 650
+        },{
+          "ID":"",
+          "type": "Vino Seco",
+          "brand": "?",
+          "price": 320
+        },{
+          "ID":"",
+          "type": "Vinagre",
+          "brand": "El delicioso",
+          "price": 320
+        },{
+          "ID":"",
+          "type": "Galletas Dulces",
+          "brand": "Blackout",
+          "price": 150
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "ADA",
+          "price": 350
+        },{
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        }
+      ]
+    },{
+      "id": "31",
+      "names": "Mipyme Infanta/San Rafael y San Miguel",
+      "location": {
+        "province": "La Habana",
+        "municipality": "CH",
+        "lat": "23.13601469008968",
+        "long": "-82.37827980984518"
+      },
+      "currency": ["CUP"],
+      "payment_methods": ["Efectivo"],
+      "website": "" ,
+      "product": [
+        {
+          "ID":"",
+          "type": "Papel Higienico",
+          "brand": "La excelencia",
+          "price": 140
+        },{
+          "ID":"",
+          "type": "Espaguethi",
+          "brand": "?",
+          "price": 370
+        },{
+          "ID":"",
+          "type": "Coditos",
+          "brand": "Bodelli",
+          "price": 290
+        },{
+          "ID":"",
+          "type": "Arroz",
+          "brand": "Rainha",
+          "price": 700
+        },{
+          "ID":"",
+          "type": "Azucar",
+          "brand": "energy",
+          "price": 330
+        },{
+          "ID":"",
+          "type": "Galletas Saladas",
+          "brand": "SaltiBlcks",
+          "price": 160
+        },{
+          "ID":"",
+          "type": "Latas de Refresco",
+          "brand": "Santa",
+          "price": 260
         }
       ]
     }
