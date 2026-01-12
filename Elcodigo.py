@@ -45,7 +45,7 @@ def conv_usd(produc_price):
     cambio = float(ult_val)*float(produc_price)
     return cambio   
     
-
+#Datos para el cambio de la moneda 
 prices = []  
 dias = []       
 sticks = []  
@@ -65,26 +65,45 @@ for tasita in datos:
         sticks.append(f"{dia}/{mes}")
         pos_act += 1
 
-#Graficos de comportamiento de la moneda
+#Gráficos de comportamiento de la moneda
      
 def tasa_de_cambio_big():
     plp.figure(figsize=(16, 7))
-    plp.plot(dias,prices,"o-",color = "#4C00FF", linewidth=3)
-    plp.xticks(dias, sticks, rotation=45, ha="right")
-    plp.title("Evolucion Informal del Dolar en Cuba",fontsize = 20)
-    plp.xlabel("Fecha",fontsize=15)
-    plp.ylabel("CUPxUSD",fontsize=15)
-    plp.fill_between(dias, prices , alpha=0.2, color="#4C00FF")
+    plp.plot(dias[:25], prices[:25], "o-", color="#4C00FF", linewidth=3)
+    plp.xticks(dias[:25], sticks[:25], rotation=45, ha="right")
+    plp.title("Evolución Informal del Dólar en Cuba (Primeros 25 días)", fontsize=20)
+    plp.xlabel("Fecha", fontsize=25)
+    plp.ylabel("CUPxUSD", fontsize=25)
+    plp.fill_between(dias[:25], prices[:25], alpha=0.2, color="#4C00FF")
     plp.grid(True)
     plp.show()
     
+    plp.figure(figsize=(16, 7))
+    plp.plot(dias[25:], prices[25:], "o-", color="#4C00FF", linewidth=3)
+    plp.xticks(dias[25:], sticks[25:], rotation=45, ha="right")
+    plp.title("Evolución Informal del Dólar en Cuba (Resto de días)", fontsize=20)
+    plp.xlabel("Fecha", fontsize=25)
+    plp.ylabel("CUPxUSD", fontsize=25)
+    plp.fill_between(dias[25:], prices[25:], alpha=0.2, color="#4C00FF")
+    plp.grid(True)
+    plp.show()
+
 def tasa_de_cambio():
     plp.figure(figsize=(16, 7))
-    plp.plot(dias,prices,"o-",color = "#4C00FF", linewidth=3)
-    plp.xticks(dias, sticks, rotation=45, ha="right")
-    plp.title("Evolucion Informal del Dolar en Cuba",fontsize = 20)
-    plp.xlabel("Fecha",fontsize=15)
-    plp.ylabel("CUPxUSD",fontsize=15)
+    plp.plot(dias[:25], prices[:25], "o-", color="#4C00FF", linewidth=3)
+    plp.xticks(dias[:25], sticks[:25], rotation=45, ha="right")
+    plp.title("Evolución Informal del Dólar en Cuba (Primeros 25 días)", fontsize=20)
+    plp.xlabel("Fecha", fontsize=25)
+    plp.ylabel("CUPxUSD", fontsize=25)
+    plp.grid(True)
+    plp.show()
+    
+    plp.figure(figsize=(16, 7))
+    plp.plot(dias[25:], prices[25:], "o-", color="#4C00FF", linewidth=3)
+    plp.xticks(dias[25:], sticks[25:], rotation=45, ha="right")
+    plp.title("Evolución Informal del Dólar en Cuba (Resto de días)", fontsize=20)
+    plp.xlabel("Fecha", fontsize=25)
+    plp.ylabel("CUPxUSD", fontsize=25)
     plp.grid(True)
     plp.show()
 
@@ -93,7 +112,7 @@ def tasa_de_cambio():
 mip_dict = cajson("mipymes.json")
 websites = cajson("Tiendasonline usd.json")
 
-
+#Datos de las pag
 
 def saca_prodm(pro_req):
     priceslist = []
@@ -184,7 +203,7 @@ matriz_np = np.array(matriz)
 def heatmap():
     plp.figure(figsize=(16,8))
     mapita = plp.pcolormesh(matriz_np, cmap = "cool", edgecolors = "black",linewidth=1, antialiased=True )
-    plp.title("Disponibilidad de productos por Mipyme", fontsize = 25, fontweight = 16, pad = 20)
+    plp.title("Disponibilidad de productos por Mipyme", fontsize = 15, fontweight = 16, pad = 20)
     plp.xlabel("Productos", fontsize = 18)
     plp.ylabel("Mipymes", fontsize = 18)
     plp.yticks(np.arange(len(mipy_name)) + 0.5, mipy_name, fontsize=9)
@@ -212,20 +231,27 @@ colores = [ "#2E0854", "#4B0082", "#483D8B", "#6A5ACD", "#7B68EE", "#9370DB", "#
 
 # LA grafica de TOP ,mas vistas
 def frecu_brand():
-    top = sorted(cuenbrand.items(), key=lambda x: x[1], reverse=True)[:15]
+   
+    items = list(cuenbrand.items())
+    for i in range(len(items)):
+        for j in range(i + 1, len(items)):
+            if items[i][1] < items[j][1]:
+                items[i], items[j] = items[j], items[i]
+    top = items[:15]
     marcas = [m[0] for m in top]
     frecuencias = [m[1] for m in top]
+
     plp.figure(figsize=(12, 8))
-    plp.barh(marcas, frecuencias ,color = colores, edgecolor = "blue")
-    for i , valor in enumerate(frecuencias):
-        plp.text(valor + 0.5 , i ,(valor), va = "center", fontweight = "bold")
-    plp.title("Marcas mas frecuentes en Mipymes", fontsize = 24, pad =15, fontweight = "bold")
+    plp.barh(marcas, frecuencias, color=colores, edgecolor="blue")
+    for i, valor in enumerate(frecuencias):
+        plp.text(valor + 0.5, i, str(valor), va="center", fontweight="bold")
+    plp.title("Marcas mas frecuentes en Mipymes", fontsize=24, pad=15, fontweight="bold")
     plp.xlabel("Cantidad")
     plp.ylabel("Marca")
     plp.gca().invert_yaxis()
     plp.tight_layout()
-    plp.grid(True, alpha = 0.3 )
-    plp.show()  
+    plp.grid(True, alpha=0.3)
+    plp.show()
 
 # La grafica donde eliges lo que quieres ver 
 
