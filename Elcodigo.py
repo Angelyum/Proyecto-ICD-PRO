@@ -93,8 +93,8 @@ def tasa_de_cambio():
     plp.plot(dias[:35], prices[:35], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[:35], sticks[:35], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Primeros 35 días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=35)
-    plp.ylabel("CUPxUSD", fontsize=35)
+    plp.xlabel("Fecha", fontsize=15)
+    plp.ylabel("CUPxUSD", fontsize=15)
     plp.grid(True)
     plp.show()
     
@@ -320,3 +320,4 @@ interactua_capo()
 frecu_brand()
 heatmap()
 comparame_esta()
+
