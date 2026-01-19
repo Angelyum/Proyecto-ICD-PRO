@@ -55,10 +55,10 @@ datos = tasa_json["data"]
 
 pos_act = 0
 for tasita in datos:
-    if tasita["data"]["dolar_today"] != None :
-        precio = float(tasita["data"]["dolar_today"])
-        dia = tasita["data"]["day"]
-        mes = tasita["data"]["month"]
+    if tasita["dolar_today"] != None :
+        precio = float(tasita["dolar_today"])
+        dia = tasita["day"]
+        mes = tasita["month"]
         
         prices.append(precio)
         dias.append(pos_act) 
@@ -222,7 +222,7 @@ for mipyme in mip_dict["mipymes"]:
     for producto in mipyme["product"]:
         marca = producto["brand"]
         
-        if marca and marca.strip() and marca != "?" and marca != "nose":
+        if marca and marca.strip() and marca != None :
             if marca in cuenbrand:
                 cuenbrand[marca] += 1
             else:
@@ -292,7 +292,10 @@ def Mipyme_productos():
         if precio:
             prod_type.append(tipo)
             precios_mip.append(float(precio))
-            marcas_mipy.append(marca)
+            if marca and marca.strip() and marca is not None:
+                marcas_mipy.append(marca)
+            else:
+                marcas_mipy.append("?")  
 
             
     print(f"\nAnalizando: {mipyname}")
@@ -316,3 +319,4 @@ def Mipyme_productos():
     plp.grid(True, alpha=0.2,)
     plp.tight_layout()
     plp.show()
+    
