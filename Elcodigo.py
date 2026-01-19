@@ -93,8 +93,8 @@ def tasa_de_cambio():
     plp.plot(dias[:35], prices[:35], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[:35], sticks[:35], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Primeros 35 días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=15)
-    plp.ylabel("CUPxUSD", fontsize=15)
+    plp.xlabel("Fecha", fontsize=35)
+    plp.ylabel("CUPxUSD", fontsize=35)
     plp.grid(True)
     plp.show()
     
@@ -112,7 +112,7 @@ def tasa_de_cambio():
 mip_dict = cajson("mipymes.json")
 websites = cajson("Tiendasonline usd.json")
 
-#Datos de las pag
+# Datos de las mipymes de la calle
 
 def saca_prodm(pro_req):
     priceslist = []
@@ -140,7 +140,7 @@ prom = []
 for elemento in todpro:
     pro = promedio(saca_prodm(elemento))
     prom.append(pro)
-    
+# Datos de las pag web
 def saca_prodw(pro_req):
     priceslist = []
     for website in websites["websites"]:
@@ -158,10 +158,10 @@ prom2 = []
 for elemento in todpro:
     pro = np.mean(saca_prodw(elemento))
     prom2.append(conv_usd(pro))
+ 
+#La gráfica de comparación de precios   
     
-#La grafica   
-    
-def comparame_esta():
+def comparar_mxw():
 
     plp.figure(figsize=(14,6))
     x = np.arange(len(todpro))  
@@ -170,7 +170,7 @@ def comparame_esta():
     plp.bar(x + ancho/2,prom2,ancho,label = "Webs(CUP)", color = "#00A1A8")
     plp.xticks(x,todpro, ha = "right", rotation = 30)
     plp.grid(True, alpha = 0.3)
-    plp.ylim(0,2500)
+    plp.ylim(0,3000)
     plp.title("Comparacion: Promedio de precios de productos (Mipyme vs Web)", fontsize = 20)
     plp.xlabel("Productos", fontsize = 15)
     plp.ylabel("Precios", fontsize = 15)
@@ -178,7 +178,7 @@ def comparame_esta():
     plp.tight_layout()
     plp.show()
     
-# Cod para los datos de la grafica de heatmap * disponibilidad
+# Cod para los datos de la gráfica de heatmap * disponibilidad
 mipy_name = []
 for mipymes in mip_dict["mipymes"]:
     mipy_name.append(mipymes["names"])
@@ -207,10 +207,10 @@ def heatmap():
     plp.xlabel("Productos", fontsize = 18)
     plp.ylabel("Mipymes", fontsize = 18)
     plp.yticks(np.arange(len(mipy_name)) + 0.5, mipy_name, fontsize=9)
-    plp.xticks(np.arange(len(todpro)) + 0.5, todpro, rotation=45, fontsize=9, ha='right')
-    c = plp.Rectangle((0,0), 1, 1, facecolor='cyan', edgecolor='black')
-    b = plp.Rectangle((0,0), 1, 1, facecolor='deeppink', edgecolor='black')
-    plp.legend([c, b], ['Disponible', 'No Disponible'], loc='upper right', fontsize=12)
+    plp.xticks(np.arange(len(todpro)) + 0.5, todpro, rotation=45, fontsize=9, ha="right")
+    c = plp.Rectangle((0,0), 1, 1, facecolor="cyan", edgecolor="black")
+    b = plp.Rectangle((0,0), 1, 1, facecolor="deeppink", edgecolor="black")
+    plp.legend([c, b], ["Disponible", "No Disponible"], loc="upper right", fontsize=12)
     plp.grid(True, alpha = 0.4, color = "black")
     plp.tight_layout()            
     plp.show()
@@ -229,18 +229,21 @@ for mipyme in mip_dict["mipymes"]:
                 cuenbrand[marca] = 1    
 colores = [ "#2E0854", "#4B0082", "#483D8B", "#6A5ACD", "#7B68EE", "#9370DB", "#8A2BE2", "#9400D3", "#9932CC", "#BA55D3", "#DA70D6", "#DDA0DD", "#EE82EE", "#E6E6FA", "#F8F8FF"]
 
-# LA grafica de TOP ,mas vistas
-def frecu_brand():
-   
-    items = list(cuenbrand.items())
-    for i in range(len(items)):
-        for j in range(i + 1, len(items)):
-            if items[i][1] < items[j][1]:
-                items[i], items[j] = items[j], items[i]
-    top = items[:15]
+
+elems = list(cuenbrand.items())
+for i in range(len(elems)):
+    for j in range(i + 1, len(elems)):
+        if elems[i][1] < elems[j][1]:
+            elems[i], elems[j] = elems[j], elems[i]
+    top = elems[:15]
     marcas = [m[0] for m in top]
     frecuencias = [m[1] for m in top]
 
+
+# LA grafica de TOP ,mas vistas 
+def frecu_brand():
+   
+    
     plp.figure(figsize=(12, 8))
     plp.barh(marcas, frecuencias, color=colores, edgecolor="blue")
     for i, valor in enumerate(frecuencias):
@@ -253,13 +256,13 @@ def frecu_brand():
     plp.grid(True, alpha=0.3)
     plp.show()
 
-# La grafica donde eliges lo que quieres ver 
+# La grafica para ver que productos tiene cada mipyme
 
-def interactua_capo():
+def Mipyme_productos():
     print("\n" + "·"*70)
     print("PRODUCTOS POR MIPYME")
     print("·"*70)
-    print("\nMIPYMES DISPONIBLES")
+    print("\nMIPYMES")
     i = 1  
     for mipyme in mip_dict["mipymes"]:
         if "names" in mipyme:
@@ -269,13 +272,13 @@ def interactua_capo():
     entrada = input("\nEscriba el numero de la mipyme: ")
     id_mipyme = int(entrada)
     if id_mipyme < 1 or id_mipyme > len(mip_dict["mipymes"]):
-        print(f"Error: El número debe estar entre 1 y {len(mip_dict['mipymes'])}")
+        print(f"Error: El número debe estar entre 1 y {len(mip_dict["mipymes"])}")
     else:
         mipyele = mip_dict["mipymes"][id_mipyme - 1]
         if "names" in mipyele:
             mipyname = mipyele["names"]
         
-        print(f"\n¡Perfecto! Seleccionaste: {mipyname}")
+        print(f"\nSeleccionaste: {mipyname}")
 
     prod_type = []
     precios_mip = []
@@ -290,34 +293,26 @@ def interactua_capo():
             prod_type.append(tipo)
             precios_mip.append(float(precio))
             marcas_mipy.append(marca)
-        
 
-    if not prod_type:
-        print(f"La mipyme '{mipyname}' no tiene productos con precio")
-        
-
+            
     print(f"\nAnalizando: {mipyname}")
     print(f"Productos encontrados: {len(prod_type)}")
     plp.figure(figsize=(14, 8))
     x_pos = range(len(prod_type))
-    bars = plp.bar(x_pos, precios_mip, color=colores, edgecolor='black', linewidth=1)
-    plp.title(f'PRECIOS EN: {mipyname}', fontsize=18, fontweight='bold', pad=20)
-    plp.xlabel('Productos', fontsize=13)
-    plp.ylabel('Precio (CUP)', fontsize=13)
-    plp.xticks(x_pos, prod_type, rotation=45, ha='right', fontsize=10)
-    for bar, precio, marca in zip(bars, precios_mip, marcas_mipy):
+    bars = plp.bar(x_pos, precios_mip, color=colores, edgecolor="black", linewidth=1)
+    plp.title(f"PRECIOS EN: {mipyname}", fontsize=18, fontweight="bold", pad=20)
+    plp.xlabel("Productos", fontsize=13)
+    plp.ylabel("Precio (CUP)", fontsize=13)
+    plp.xticks(x_pos, prod_type, rotation=45, ha="right", fontsize=10)
+    for i in range(len(bars)):
+        bar = bars[i]
+        precio = precios_mip[i]
+        marca = marcas_mipy[i]
         altura = bar.get_height()
         plp.text(bar.get_x() + bar.get_width()/2, altura + max(precios_mip)*0.01,
-                f'{int(precio)}', ha='center', va='bottom', fontsize=9, fontweight='bold')
+                f"{int(precio)}", ha="center", va="bottom", fontsize=9, fontweight="bold")
         plp.text(bar.get_x() + bar.get_width()/2, -max(precios_mip)*0.05,
-                marca[:10], ha='center', va='top', fontsize=7, color='gray', rotation=90)
+                marca[:10], ha="center", va="top", fontsize=7, color="gray", rotation=90)
     plp.grid(True, alpha=0.2,)
     plp.tight_layout()
     plp.show()
-
-tasa_de_cambio()
-interactua_capo()
-frecu_brand()
-heatmap()
-comparame_esta()
-
