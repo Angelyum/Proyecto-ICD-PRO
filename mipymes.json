@@ -34,7 +34,7 @@
         },
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 550
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "type": "Vinagre",
-          "brand": "?",
+          "brand": null,
           "price": 350
         }
       ]
@@ -163,12 +163,12 @@
         },
         {
           "type": "Detergente",
-          "brand": "?",
+          "brand": null,
           "price": 630
         },
         {
           "type": "Toallas Húmedas",
-          "brand": "?",
+          "brand": null,
           "price": 550
         },
         {
@@ -301,7 +301,7 @@
         },
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 500
         },
         {
@@ -522,12 +522,12 @@
         },
         {
           "type": "Vino Seco",
-          "brand": "?",
+          "brand": null,
           "price": 350
         },
         {
           "type": "Vinagre",
-          "brand": "?",
+          "brand": null,
           "price": 350
         },
         {
@@ -669,7 +669,7 @@
         },
         {
           "type": "Coditos",
-          "brand": "?",
+          "brand": null,
           "price": 400
         }
       ]
@@ -792,7 +792,7 @@
         },
         {
           "type": "Espagueti",
-          "brand": "?",
+          "brand": null,
           "price": 380
         },
         {
@@ -802,7 +802,7 @@
         },
         {
           "type": "Arroz",
-          "brand": "?",
+          "brand": null,
           "price": 750
         },
         {
@@ -881,7 +881,7 @@
         },
         {
           "type": "Arroz",
-          "brand": "?",
+          "brand": null,
           "price": 350
         }
       ]
@@ -959,7 +959,7 @@
         },
         {
           "type": "Coditos",
-          "brand": "?",
+          "brand": null,
           "price": 370
         },
         {
@@ -984,7 +984,7 @@
         },
         {
           "type": "Mayonesa",
-          "brand": "?",
+          "brand": null,
           "price": 1550
         }
       ]
@@ -1018,7 +1018,7 @@
         },
         {
           "type": "Arroz",
-          "brand": "?",
+          "brand": null,
           "price": 650
         },
         {
@@ -1171,7 +1171,7 @@
         },
         {
           "type": "Espagueti",
-          "brand": "?",
+          "brand": null,
           "price": 350
         },
         {
@@ -1210,7 +1210,7 @@
         },
         {
           "type": "Mayonesa",
-          "brand": "?",
+          "brand": null,
           "price": 1100
         },
         {
@@ -1230,7 +1230,7 @@
         },
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 500
         }
       ]
@@ -1323,7 +1323,7 @@
         },
         {
           "type": "Coditos",
-          "brand": "?",
+          "brand": null,
           "price": 650
         }
       ]
@@ -1402,7 +1402,7 @@
         },
         {
           "type": "Mayonesa",
-          "brand": "?",
+          "brand": null,
           "price": 950
         },
         {
@@ -1412,12 +1412,12 @@
         },
         {
           "type": "Arroz",
-          "brand": "?",
+          "brand": null,
           "price": 320
         },
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 450
         }
       ]
@@ -1466,7 +1466,7 @@
         },
         {
           "type": "Espagueti",
-          "brand": "?",
+          "brand": null,
           "price": 300
         },
         {
@@ -1515,12 +1515,12 @@
         },
         {
           "type": "Espagueti",
-          "brand": "?",
+          "brand": null,
           "price": 470
         },
         {
           "type": "Coditos",
-          "brand": "?",
+          "brand": null,
           "price": 400
         },
         {
@@ -1530,7 +1530,7 @@
         },
         {
           "type": "Mayonesa",
-          "brand": "?",
+          "brand": null,
           "price": 1000
         },
         {
@@ -1603,7 +1603,7 @@
         },
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 400
         }
       ]
@@ -1696,7 +1696,7 @@
       "product": [
         {
           "type": "Puré de Tomate",
-          "brand": "?",
+          "brand": null,
           "price": 600
         },
         {
@@ -1721,7 +1721,7 @@
         },
         {
           "type": "Mayonesa",
-          "brand": "?",
+          "brand": null,
           "price": 1500
         }
       ]
@@ -1732,8 +1732,8 @@
       "location": {
         "province": "La Habana",
         "municipality": "CH",
-        "lat": "",
-        "long": ""
+        "lat": "23.13588621925948",
+        "long": "-82.378196471592"
       },
       "currency": ["CUP"],
       "payment_methods": ["Efectivo"],
@@ -1765,7 +1765,7 @@
         },
         {
           "type": "Arroz",
-          "brand": "?",
+          "brand": null,
           "price": 750
         },
         {
@@ -1799,7 +1799,7 @@
         },
         {
           "type": "Vino Seco",
-          "brand": "?",
+          "brand": null,
           "price": 320
         },
         {
@@ -1843,7 +1843,7 @@
         },
         {
           "type": "Espagueti",
-          "brand": "?",
+          "brand": null,
           "price": 370
         },
         {
