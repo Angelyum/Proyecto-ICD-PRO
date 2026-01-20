@@ -17,14 +17,6 @@ def mostdata(mipdat):
             print(" -", producto["type"], ":", producto["brand"])
         print("___________________________")
 
-# Función para crear lista de productos
-def listpro(mipdat):
-    productos = []
-    for mipyme in mipdat:
-        for producto in mipyme["product"]:
-            productos.append([producto["type"], producto["brand"]])
-    return productos
-
 # Función para quitar repetidos
 def elirep(lista):
     sin_repetidos = []
@@ -320,3 +312,4 @@ def Mipyme_productos():
     plp.tight_layout()
     plp.show()
     
+
