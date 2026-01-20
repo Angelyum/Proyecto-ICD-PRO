@@ -14,7 +14,7 @@ Este proyecto de Ciencia de Datos analiza comparativamente los precios y disponi
 2. **Comparación de precios por categoría** - Brecha canal digital vs. informal
 3. **Mapa de disponibilidad en mipymes** - Fragmentación geográfica de la oferta
 4. **Marcas más frecuentes en comercio informal** - Patrones de distribución
-5. **Ranking de marcas premium online** - Segmentación por poder adquisitivo
+5. **Productos y sus precios de cada mipyme** - Segmentación por poder adquisitivo
 
 ##  Conclusiones
 La investigación demuestra la existencia de dos circuitos comerciales operando con lógicas económicas distintas en La Habana:
