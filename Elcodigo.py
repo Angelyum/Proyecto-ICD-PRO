@@ -64,8 +64,8 @@ def tasa_de_cambio_big():
     plp.plot(dias[:35], prices[:35], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[:35], sticks[:35], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Primeros 35 días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=15)
-    plp.ylabel("CUPxUSD", fontsize=15)
+    plp.xlabel("Fecha", fontsize=20)
+    plp.ylabel("CUPxUSD", fontsize=20)
     plp.fill_between(dias[:35], prices[:35], alpha=0.2, color="#4C00FF")
     plp.grid(True)
     plp.show()
@@ -74,8 +74,8 @@ def tasa_de_cambio_big():
     plp.plot(dias[35:], prices[35:], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[35:], sticks[35:], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Resto de días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=15)
-    plp.ylabel("CUPxUSD", fontsize=15)
+    plp.xlabel("Fecha", fontsize = 20)
+    plp.ylabel("CUPxUSD", fontsize = 20)
     plp.fill_between(dias[35:], prices[35:], alpha=0.2, color="#4C00FF")
     plp.grid(True)
     plp.show()
@@ -85,8 +85,8 @@ def tasa_de_cambio():
     plp.plot(dias[:35], prices[:35], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[:35], sticks[:35], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Primeros 35 días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=35)
-    plp.ylabel("CUPxUSD", fontsize=35)
+    plp.xlabel("Fecha", fontsize=20)
+    plp.ylabel("CUPxUSD", fontsize=20)
     plp.grid(True)
     plp.show()
     
@@ -94,8 +94,8 @@ def tasa_de_cambio():
     plp.plot(dias[35:], prices[35:], "o-", color="#4C00FF", linewidth=3)
     plp.xticks(dias[35:], sticks[35:], rotation=45, ha="right")
     plp.title("Evolución Informal del Dólar en Cuba (Resto de días)", fontsize=20)
-    plp.xlabel("Fecha", fontsize=35)
-    plp.ylabel("CUPxUSD", fontsize=35)
+    plp.xlabel("Fecha", fontsize=20)
+    plp.ylabel("CUPxUSD", fontsize=20)
     plp.grid(True)
     plp.show()
 
@@ -103,6 +103,19 @@ def tasa_de_cambio():
 
 mip_dict = cajson("mipymes.json")
 websites = cajson("Tiendasonline usd.json")
+
+def saca_todo():
+    todpro = []
+    for mipyme in mip_dict["mipymes"]:
+            for producto in mipyme["product"]:
+                proty = producto["type"]
+                todpro.append(proty)
+    todpro = elirep(todpro)
+    
+    return 
+
+saca_todo()
+
 
 # Datos de las mipymes de la calle
 
@@ -209,33 +222,33 @@ def heatmap():
 
 
 #DAtos para frecu de marcas     
-cuenbrand = {}
-for mipyme in mip_dict["mipymes"]:
-    for producto in mipyme["product"]:
-        marca = producto["brand"]
-        
-        if marca and marca.strip() and marca != None :
-            if marca in cuenbrand:
-                cuenbrand[marca] += 1
-            else:
-                cuenbrand[marca] = 1    
 colores = [ "#2E0854", "#4B0082", "#483D8B", "#6A5ACD", "#7B68EE", "#9370DB", "#8A2BE2", "#9400D3", "#9932CC", "#BA55D3", "#DA70D6", "#DDA0DD", "#EE82EE", "#E6E6FA", "#F8F8FF"]
 
+# LA grafica de TOP ,mas vistas, FALLIDA YUDI DIJO QUE NO!!!!
+def frecu_brand(n):
 
-elems = list(cuenbrand.items())
-for i in range(len(elems)):
-    for j in range(i + 1, len(elems)):
-        if elems[i][1] < elems[j][1]:
-            elems[i], elems[j] = elems[j], elems[i]
-    top = elems[:15]
-    marcas = [m[0] for m in top]
-    frecuencias = [m[1] for m in top]
-
-
-# LA grafica de TOP ,mas vistas 
-def frecu_brand():
-   
     
+    cuenbrand = {}
+    for mipyme in mip_dict["mipymes"]:
+        for producto in mipyme["product"]:
+            marca = producto["brand"]
+            
+            if marca and marca.strip() and marca != None :
+                if marca in cuenbrand:
+                    cuenbrand[marca] += 1
+                else:
+                    cuenbrand[marca] = 1    
+    
+
+    elems = list(cuenbrand.items())
+    for i in range(len(elems)):
+        for j in range(i + 1, len(elems)):
+            if elems[i][1] < elems[j][1]:
+                elems[i], elems[j] = elems[j], elems[i]
+        top = elems[:n]
+        marcas = [m[0] for m in top]
+        frecuencias = [m[1] for m in top]
+
     plp.figure(figsize=(12, 8))
     plp.barh(marcas, frecuencias, color=colores, edgecolor="blue")
     for i, valor in enumerate(frecuencias):
@@ -289,12 +302,35 @@ def Mipyme_productos():
             else:
                 marcas_mipy.append("?")  
 
-            
+    medias_web = []
+    for tipo_producto in prod_type:
+        precios_web_raw = saca_prodw(tipo_producto)
+        precios_web_validos = [p for p in precios_web_raw if p is not None and p > 0]
+        
+        if precios_web_validos:
+            precios_web_cup = [conv_usd(p) for p in precios_web_validos]
+            media_web = np.mean(precios_web_cup)
+        else:
+            media_web = 0
+        medias_web.append(media_web)
+    
     print(f"\nAnalizando: {mipyname}")
     print(f"Productos encontrados: {len(prod_type)}")
     plp.figure(figsize=(14, 8))
     x_pos = range(len(prod_type))
     bars = plp.bar(x_pos, precios_mip, color=colores, edgecolor="black", linewidth=1)
+    plp.plot(x_pos, medias_web, "o-", color="#003366", linewidth=2.5, markersize=8, 
+             label="Promedio Web (USD→CUP)", alpha=0.9)
+    
+    
+    for i, media in enumerate(medias_web):
+        if media > 0:  
+            plp.text(i, media + max(precios_mip)*0.02, 
+                    f"{int(media)}", 
+                    ha="center", va="bottom", 
+                    fontsize=9, color="#003366", fontweight="bold",
+                    bbox=dict(boxstyle="round,pad=0.2", facecolor="white", alpha=0.8))
+    
     plp.title(f"PRECIOS EN: {mipyname}", fontsize=18, fontweight="bold", pad=20)
     plp.xlabel("Productos", fontsize=13)
     plp.ylabel("Precio (CUP)", fontsize=13)
@@ -308,8 +344,66 @@ def Mipyme_productos():
                 f"{int(precio)}", ha="center", va="bottom", fontsize=9, fontweight="bold")
         plp.text(bar.get_x() + bar.get_width()/2, -max(precios_mip)*0.05,
                 marca[:10], ha="center", va="top", fontsize=7, color="gray", rotation=90)
+    
+    plp.legend(loc="upper right")
     plp.grid(True, alpha=0.2,)
     plp.tight_layout()
     plp.show()
     
+# GRafica pastel para disponibilidasd de marcas
 
+def dispo_marcas():
+  
+    marcas_mipymes = []
+    for mipyme in mip_dict["mipymes"]:
+        for producto in mipyme["product"]:
+            marca = producto.get("brand")
+            if marca is not None: 
+                marcas_mipymes.append(marca)
+    
+    marcas_webs = []
+    for website in websites["websites"]:
+        for categoria in website["products_by_type"]:
+            for producto in website["products_by_type"][categoria]:
+                marca = producto.get("brand")
+                if marca is not None: 
+                    marcas_webs.append(marca)
+
+    marcas_mipymes = elirep(marcas_mipymes)
+    marcas_webs = elirep(marcas_webs)
+    
+    solo_mipymes = []
+    for marca in marcas_mipymes:
+        if marca not in marcas_webs:
+            solo_mipymes.append(marca)
+    
+    solo_webs = []
+    for marca in marcas_webs:
+        if marca not in marcas_mipymes:
+            solo_webs.append(marca)
+    
+    en_ambos = []
+    for marca in marcas_mipymes:
+        if marca in marcas_webs:
+            en_ambos.append(marca)
+    
+    plp.figure(figsize=(10, 8))
+    datos = [len(solo_mipymes), len(solo_webs), len(en_ambos)]
+    etiquetas = ["Solo Mipymes", "Solo Webs", "En Ambos"]
+    colores = ["#4B1D91", "#00A1A8", "#9370DB"]
+    wedges, texts, autotexts = plp.pie(datos, labels=etiquetas, colors=colores,
+                                      autopct="%1.1f%%", startangle=90,
+                                      textprops={"fontsize": 12})
+    for autotext in autotexts:
+        autotext.set_color("white")
+        autotext.set_fontweight("bold")
+        autotext.set_fontsize(11)
+    plp.title("Disponibilidad de Marcas: Mipymes vs Webs", 
+              fontsize=16, fontweight="bold", pad=20)
+    plp.tight_layout()
+    plp.show()
+    
+    print("\n MARCAS ENCONTRADAS:")
+    print(f"Solo en Mipymes: {len(solo_mipymes)}")
+    print(f"Solo en Webs: {len(solo_webs)}")
+    print(f"En ambos: {len(en_ambos)}")
